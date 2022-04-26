@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+ 
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+canvas {
+    border-radius: 10px;
+    border-color: black;
+    border-style: dotted;
+    animation-name: bordercolorchange;
+    animation-duration:6s;
+    animation-iteration-count: infinite;
+    margin-top: 260px;
+}
+
+#h1label {
+    font-size: 25px;
+}
+
+.takeSnap {
+    font-size: 17px;
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+    background-color:rgb(99, 228, 99);
+    /* margin-top: 10px; */
+}
+
+.takeSnap:hover{
+    background-color:red;
+}
+
+@keyframes bordercolorchange {
+    from{box-shadow:1px 1px 38px red;}
+    to{box-shadow: 1px 1px 38px yellow;}
+    /* to{box-shadow: 1px 1px 38px red;} */
+}
+
+
+
+
+body {
+    background: #D3959B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #BFE6BA, #D3959B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #BFE6BA, #D3959B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.logo {
+    height:80px;
+}
+
